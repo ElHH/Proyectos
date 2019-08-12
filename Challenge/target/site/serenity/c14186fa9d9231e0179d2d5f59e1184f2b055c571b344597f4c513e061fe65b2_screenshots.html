@@ -1,0 +1,291 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/all.css">
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/v4-shims.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="c303ed7a38f243af8f9618a02dd9bb2a892dbb2d0a9fbcadee60e0d845fc2622.html">Book A Flight</a></span>
+                > <span class="truncate-60"><a
+                    href="c14186fa9d9231e0179d2d5f59e1184f2b055c571b344597f4c513e061fe65b2.html">Add the source city, target city and date </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 12-08-2019 09:29</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Book A Flight </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Hernan wants to book a ticket from the source to target
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Add the source city, target city and date
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given he wants to book a ticket in the page aeromexico.com<br>When he aggregates the trip information<br>Then he shoulds see the ticked booked for the next route</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="9cf0c135620706d08c84c88d992e9f281d8aef5fb156857047cb6480c0299e19.png" title="Example #1: {source_city=Madrid, target_city=Aguascalientes, month_ini=Agosto, day_ini=25, month_fin=Septiembre, day_fin=14}" width="1366"/>
+                <img src="0fa0547c6214d10f336dbf2145140a0eccd32c80ed7bd25386014a4227efbf51.png" title="Given he wants to book a ticket in the page aeromexico.com" width="1366"/>
+                <img src="9e5ae42b0df430d71f4ee5db0c1b804d0e5c03c5668b35d67129288d4f993ec7.png" title="Given he wants to book a ticket in the page aeromexico.com" width="1366"/>
+                <img src="0fa0547c6214d10f336dbf2145140a0eccd32c80ed7bd25386014a4227efbf51.png" title="Hernan opens the Aeromexico home" width="1366"/>
+                <img src="9e5ae42b0df430d71f4ee5db0c1b804d0e5c03c5668b35d67129288d4f993ec7.png" title="Hernan opens the Aeromexico home" width="1366"/>
+                <img src="20584ef6840b49554484dc0b8a5f7c5c71011251ef61b918cd48c0ceb256ec39.png" title="When he aggregates the trip information
+| source_city | target_city | month_ini | day_ini | month_fin | day_fin |
+| Madrid | Aguascalientes | Agosto | 25 | Septiembre | 14 |" width="1366"/>
+                <img src="eeaae24f41a48def9d5c90d4bb5f917a2165aa3cc63da051e56c2f8ee0c75aff.png" title="When he aggregates the trip information
+| source_city | target_city | month_ini | day_ini | month_fin | day_fin |
+| Madrid | Aguascalientes | Agosto | 25 | Septiembre | 14 |" width="1366"/>
+                <img src="20584ef6840b49554484dc0b8a5f7c5c71011251ef61b918cd48c0ceb256ec39.png" title="Hernan enters 'Madrid' into Source city" width="1366"/>
+                <img src="bf236f50d12b9deff01f0ef2f3a0e08d8ca6567aa56887a31d16b1039fbe7b89.png" title="Hernan enters 'Madrid' into Source city" width="1366"/>
+                <img src="46498b57849b76b76e9a216e564de87142aab937a445da84269ef4aa686f4762.png" title="Hernan enters 'Aguascalientes' into Target city" width="1366"/>
+                <img src="a0ade0e09e06a1dc5e6a39e149defd38b88b4051dc5bc22c6a1e6dd9d8e8b6ab.png" title="Hernan enters 'Aguascalientes' into Target city" width="1366"/>
+                <img src="c0a98dc7a90d7da9c472d4e929dd59fc2bcc5ff0279ffd0a1d3c0e4dceba0440.png" title="Hernan clicks on Field flight departure date " width="1366"/>
+                <img src="c0a98dc7a90d7da9c472d4e929dd59fc2bcc5ff0279ffd0a1d3c0e4dceba0440.png" title="Hernan clicks on Flight departure day" width="1366"/>
+                <img src="19330799776ca858b89751c639455c9a8597230e35b72c98b1b985b7f4412659.png" title="Hernan clicks on Flight departure day" width="1366"/>
+                <img src="19330799776ca858b89751c639455c9a8597230e35b72c98b1b985b7f4412659.png" title="Hernan clicks on Field flight arrive date" width="1366"/>
+                <img src="19330799776ca858b89751c639455c9a8597230e35b72c98b1b985b7f4412659.png" title="Hernan clicks on Flight departure day" width="1366"/>
+                <img src="d8e2572de98047c36b65d2111fae71a2483a112ef7a196db975620271e94582e.png" title="Hernan clicks on Flight departure day" width="1366"/>
+                <img src="d8e2572de98047c36b65d2111fae71a2483a112ef7a196db975620271e94582e.png" title="Hernan clicks on Adult button" width="1366"/>
+                <img src="e21be288f76b07a37e182657a0c2685727d3391fc8b3296befacdf3246da0799.png" title="Hernan clicks on Adult button" width="1366"/>
+                <img src="e21be288f76b07a37e182657a0c2685727d3391fc8b3296befacdf3246da0799.png" title="Hernan clicks on Adult quantity" width="1366"/>
+                <img src="bb4d1496bda8b433597a8755f49f12c4d75acec60c5d459ace737f71bb716b2a.png" title="Hernan clicks on Adult quantity" width="1366"/>
+                <img src="bb4d1496bda8b433597a8755f49f12c4d75acec60c5d459ace737f71bb716b2a.png" title="Hernan clicks on Children button" width="1366"/>
+                <img src="8db15d4b105beff1e4405cd71478a41e9e65d7c58cad4e7e642dd3577497cc88.png" title="Hernan clicks on Children button" width="1366"/>
+                <img src="8db15d4b105beff1e4405cd71478a41e9e65d7c58cad4e7e642dd3577497cc88.png" title="Hernan clicks on Children quantity" width="1366"/>
+                <img src="b483e46410d996739c96da71794f90f55ceccc7505f2aeeea6d1f54f32182d7b.png" title="Hernan clicks on Children quantity" width="1366"/>
+                <img src="b483e46410d996739c96da71794f90f55ceccc7505f2aeeea6d1f54f32182d7b.png" title="Hernan clicks on Age children" width="1366"/>
+                <img src="b1740b4a92fc857158b1f97742747dd1c4935dd5591034726822fab0137a5e3c.png" title="Hernan clicks on Age children" width="1366"/>
+                <img src="b1740b4a92fc857158b1f97742747dd1c4935dd5591034726822fab0137a5e3c.png" title="Hernan clicks on Age children button" width="1366"/>
+                <img src="9af9dabc0508445a747f34c875ab730b5c8ab55da14fddf430ff3668898169e7.png" title="Hernan clicks on Age children button" width="1366"/>
+                <img src="6be3dc3e9c31699b2cf89891caa35a4e98b0ba1c4bee078025263bccd8443ee4.png" title="Hernan clicks on Confirmar button" width="1366"/>
+                <img src="16ce903ac3e6a6d8e053b2c9b85e0a9a1b69d51616eafabf27c298d85479964e.png" title="Hernan clicks on Confirmar button" width="1366"/>
+                <img src="16ce903ac3e6a6d8e053b2c9b85e0a9a1b69d51616eafabf27c298d85479964e.png" title="Hernan clicks on Search flight button" width="1366"/>
+                <img src="abc03defe860f5df783033858c0033d7f3eb4058c365e06ac4dc80552d41906a.png" title="Hernan clicks on Search flight button" width="1366"/>
+                <img src="a2869793e1bf9c796e4179b9f0b9d692fb0cb66d939e50d167356bfeb6108b49.png" title="Then he shoulds see the ticked booked for the next route
+| source_city | target_city |
+| Madrid | Aguascalientes |" width="1366"/>
+                <img src="9cf0c135620706d08c84c88d992e9f281d8aef5fb156857047cb6480c0299e19.png" title="Then he shoulds see the ticked booked for the next route
+| source_city | target_city |
+| Madrid | Aguascalientes |" width="1366"/>
+                <img src="9cf0c135620706d08c84c88d992e9f281d8aef5fb156857047cb6480c0299e19.png" title="Then book should be 'MAD - AGU'" width="1366"/>
+                <img src="e33e0b81674d0b5330b10387f94264405b1adf6a5966c51f09a2579c704341bc.png" title="Example #2: {source_city=Bogota, target_city=Lima, month_ini=Agosto, day_ini=23, month_fin=Septiembre, day_fin=27}" width="1366"/>
+                <img src="0fa0547c6214d10f336dbf2145140a0eccd32c80ed7bd25386014a4227efbf51.png" title="Given he wants to book a ticket in the page aeromexico.com" width="1366"/>
+                <img src="20584ef6840b49554484dc0b8a5f7c5c71011251ef61b918cd48c0ceb256ec39.png" title="Given he wants to book a ticket in the page aeromexico.com" width="1366"/>
+                <img src="0fa0547c6214d10f336dbf2145140a0eccd32c80ed7bd25386014a4227efbf51.png" title="Hernan opens the Aeromexico home" width="1366"/>
+                <img src="9e5ae42b0df430d71f4ee5db0c1b804d0e5c03c5668b35d67129288d4f993ec7.png" title="Hernan opens the Aeromexico home" width="1366"/>
+                <img src="20584ef6840b49554484dc0b8a5f7c5c71011251ef61b918cd48c0ceb256ec39.png" title="When he aggregates the trip information
+| source_city | target_city | month_ini | day_ini | month_fin | day_fin |
+| Bogota | Lima | Agosto | 23 | Septiembre | 27 |" width="1366"/>
+                <img src="346183ffbf4eaa1f54930d0f2ed54a07521a00746c6f0ffb2fb0f5235d2e39b9.png" title="When he aggregates the trip information
+| source_city | target_city | month_ini | day_ini | month_fin | day_fin |
+| Bogota | Lima | Agosto | 23 | Septiembre | 27 |" width="1366"/>
+                <img src="9e5ae42b0df430d71f4ee5db0c1b804d0e5c03c5668b35d67129288d4f993ec7.png" title="Hernan enters 'Bogota' into Source city" width="1366"/>
+                <img src="69327d98a127c6302f8cebae260e2ed891a09c64e9df6e878df061217150eac9.png" title="Hernan enters 'Bogota' into Source city" width="1366"/>
+                <img src="25ed641152d43314111322296c13ed8e7c3497ffbdcc67cdfff6b3ccf52dc241.png" title="Hernan enters 'Lima' into Target city" width="1366"/>
+                <img src="259bc944f5b0b995b1abc2989c54ed43a90c770db6c02292a8f8bfeda8e96663.png" title="Hernan enters 'Lima' into Target city" width="1366"/>
+                <img src="9653efb24c18d7e650caec8af2efbcc68f523509ef8503ba5e57b67b80dceb93.png" title="Hernan clicks on Field flight departure date " width="1366"/>
+                <img src="9653efb24c18d7e650caec8af2efbcc68f523509ef8503ba5e57b67b80dceb93.png" title="Hernan clicks on Flight departure day" width="1366"/>
+                <img src="51897d3e72bae3983ec5e4378b4cb04108cff068cc09ca84cd9bc1e6ad91743f.png" title="Hernan clicks on Flight departure day" width="1366"/>
+                <img src="51897d3e72bae3983ec5e4378b4cb04108cff068cc09ca84cd9bc1e6ad91743f.png" title="Hernan clicks on Field flight arrive date" width="1366"/>
+                <img src="51897d3e72bae3983ec5e4378b4cb04108cff068cc09ca84cd9bc1e6ad91743f.png" title="Hernan clicks on Flight departure day" width="1366"/>
+                <img src="b48a189d235ededa1eb927842760b9846c942f08306f2a6169d2a9554e994726.png" title="Hernan clicks on Flight departure day" width="1366"/>
+                <img src="b48a189d235ededa1eb927842760b9846c942f08306f2a6169d2a9554e994726.png" title="Hernan clicks on Adult button" width="1366"/>
+                <img src="821caf0fbd25647e7179cebaac06129783b8b61112055b0730e69de1c4ca7d99.png" title="Hernan clicks on Adult button" width="1366"/>
+                <img src="821caf0fbd25647e7179cebaac06129783b8b61112055b0730e69de1c4ca7d99.png" title="Hernan clicks on Adult quantity" width="1366"/>
+                <img src="d50ab895357e8fbc27f30c8da66ab82664d692201257ffffca28e4b95473540f.png" title="Hernan clicks on Adult quantity" width="1366"/>
+                <img src="d50ab895357e8fbc27f30c8da66ab82664d692201257ffffca28e4b95473540f.png" title="Hernan clicks on Children button" width="1366"/>
+                <img src="bf26c10c7dbb9d58b91aed3aa028295a336b25ffa7463db2f04425af3d15161c.png" title="Hernan clicks on Children button" width="1366"/>
+                <img src="bf26c10c7dbb9d58b91aed3aa028295a336b25ffa7463db2f04425af3d15161c.png" title="Hernan clicks on Children quantity" width="1366"/>
+                <img src="e2ab278fa24a3abb7ea9169e11a3898be9fb7c6ec4c693a2fc41cd21c46e0c61.png" title="Hernan clicks on Children quantity" width="1366"/>
+                <img src="0805cb1998f0bb820311c03c5972bc1299817e549789df3d90ed89b957624b38.png" title="Hernan clicks on Age children" width="1366"/>
+                <img src="810fd4dea6b8c56f8d80acdb80097a1f840124bfee781552f41699c17539142f.png" title="Hernan clicks on Age children" width="1366"/>
+                <img src="810fd4dea6b8c56f8d80acdb80097a1f840124bfee781552f41699c17539142f.png" title="Hernan clicks on Age children button" width="1366"/>
+                <img src="de3aa0a5fa53cd671423fb886ddcfc617636b5681a2687c1fea7ce35316cc351.png" title="Hernan clicks on Age children button" width="1366"/>
+                <img src="de3aa0a5fa53cd671423fb886ddcfc617636b5681a2687c1fea7ce35316cc351.png" title="Hernan clicks on Confirmar button" width="1366"/>
+                <img src="d0e67fb5eb836afb5c7eb043a83fcef3e9c47641ef0446832e90fdbc9dc98e53.png" title="Hernan clicks on Confirmar button" width="1366"/>
+                <img src="d0e67fb5eb836afb5c7eb043a83fcef3e9c47641ef0446832e90fdbc9dc98e53.png" title="Hernan clicks on Search flight button" width="1366"/>
+                <img src="d16bbcbd990ec57d33a1c6a423213aa494dade816af70e15d284b0d7bca6ccdd.png" title="Hernan clicks on Search flight button" width="1366"/>
+                <img src="d0e88c2e7b6c4cc018a911f37865dc7fa58fc0df82246d827e496e5bd12a00dc.png" title="Then he shoulds see the ticked booked for the next route
+| source_city | target_city |
+| Bogota | Lima |" width="1366"/>
+                <img src="e33e0b81674d0b5330b10387f94264405b1adf6a5966c51f09a2579c704341bc.png" title="Then he shoulds see the ticked booked for the next route
+| source_city | target_city |
+| Bogota | Lima |" width="1366"/>
+                <img src="e33e0b81674d0b5330b10387f94264405b1adf6a5966c51f09a2579c704341bc.png" title="Then book should be 'BOG - LIM': <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.8</span>
+</div>
+</body>
+</html>
