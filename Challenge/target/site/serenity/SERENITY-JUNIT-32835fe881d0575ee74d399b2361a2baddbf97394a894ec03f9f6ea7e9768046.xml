@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="3" failures="0" name="Book a flight" skipped="1" tests="4" time="339.45" timestamp="2019-08-11 10:08:25"><testcase name="Book a flight"><skipped/></testcase><testcase name="Add the &quot;Madrid&quot;, &quot;Aguascalientes&quot; and &quot;&lt;date&gt;&quot;"><error message="Expected condition failed: waiting for text ('BOG - MAD') to be present in element found by By.xpath: //li[@id='EtNavFlights']/a[@class='EtRutas'] (tried for 60 second(s) with 500 milliseconds interval)&#10;Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'&#10;System info: host: 'SBMEDLAPPROHG5', ip: '192.168.1.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'&#10;Driver info: net.thucydides.core.webdriver.WebDriverFacade&#10;Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'&#10;System info: host: 'SBMEDLAPPROHG5', ip: '192.168.1.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">Expected condition failed: waiting for text ('BOG - MAD') to be present in element found by By.xpath: //li[@id='EtNavFlights']/a[@class='EtRutas'] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'SBMEDLAPPROHG5', ip: '192.168.1.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: net.thucydides.core.webdriver.WebDriverFacade
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'SBMEDLAPPROHG5', ip: '192.168.1.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: unknown</error><system-err>Expected condition failed: waiting for text ('BOG - MAD') to be present in element found by By.xpath: //li[@id='EtNavFlights']/a[@class='EtRutas'] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'SBMEDLAPPROHG5', ip: '192.168.1.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: net.thucydides.core.webdriver.WebDriverFacade
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'SBMEDLAPPROHG5', ip: '192.168.1.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: unknown&#13;
+com.aeromexico.world.capacitacion.stepsdefinitions.AeromexicoStepDefinitions.heShouldsSeeTheTickedBookedForTheRouteFromTheTo(AeromexicoStepDefinitions.java:63)&#13;
+✽.he shoulds see the ticked booked for the route from the "Madrid" to "Aguascalientes"(src/test/resources/features/Aeromexico.feature:20)&#13;
+</system-err></testcase></testsuite>
